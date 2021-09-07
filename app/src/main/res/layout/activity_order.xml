@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity"
+    android:orientation="vertical">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Below Details :"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:textStyle="italic|bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Active Contact Number"
+            android:textSize="15dp"
+            android:padding="20dp"
+            android:editable="true"
+            android:textColorHint="#6E6B6B">
+        </EditText>
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Current Address"
+            android:layout_marginTop="15dp"
+            android:editable="true"
+            android:textSize="15dp"
+            android:padding="20dp"
+            android:textColorHint="#6E6B6B">
+        </EditText>
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Proceed"
+            android:padding="2dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundcard">
+        </Button>
+
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/off"
+        android:icon="@drawable/ic_baseline_local_offer_24"
+        android:title="Offers">
+    </item>
+
+    <item
+        android:id="@+id/book"
+        android:icon="@drawable/ic_baseline_home_repair_service_24"
+        android:title="Bookings">
+    </item>
+
+    <item
+        android:id="@+id/prof"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile">
+    </item>
+</menu>

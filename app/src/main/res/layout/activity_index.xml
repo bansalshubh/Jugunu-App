@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".indexActivity"
+    android:orientation="vertical">
+
+<!--    <EditText-->
+<!--        android:id="@+id/ed1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="14dp"-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="#000000"-->
+<!--        android:padding="10dp">-->
+<!--    </EditText>-->
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Location"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+<!--        <RadioGroup-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rd1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Add Current Location"-->
+<!--                android:textColorHint="#000000"-->
+<!--                android:textStyle="bold|italic"-->
+<!--                android:textSize="15dp"-->
+<!--                android:onClick="onRadioButtonClicked"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:padding="15dp">-->
+<!--            </RadioButton>-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rd2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Add Custom Location"-->
+<!--                android:textColorHint="#000000"-->
+<!--                android:textStyle="bold|italic"-->
+<!--                android:onClick="onRadioButtonClicked"-->
+<!--                android:textSize="15dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:padding="15dp">-->
+<!--            </RadioButton>-->
+
+<!--        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:text="ADD CURRENT LOCATION"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:elevation="20dp">
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ADD CURRENT LOCATION"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:elevation="20dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

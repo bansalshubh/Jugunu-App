@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210688281224",
+    "project_id": "juggnu-f99f2",
+    "storage_bucket": "juggnu-f99f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210688281224:android:2f0fe87c9bd60e8e632d3d",
+        "android_client_info": {
+          "package_name": "com.example.joggle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210688281224-3p5bijmlog80q6un2cr1b514hsnipmhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiZvfI91qfKKXZ7QVZXq2c2p-S1_IImi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210688281224-3p5bijmlog80q6un2cr1b514hsnipmhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
